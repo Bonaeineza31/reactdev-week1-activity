@@ -8,14 +8,14 @@ function Book(title, author, year) {
 }
 
 // Function to display book information
-function displayBook(book) {
+function displayBook(book: any): void {
   const bookList = document.getElementById("book-list");
   const bookDiv = document.createElement("div");
   bookDiv.innerHTML = `
     <h2>${book.title}</h2>
     <p>By ${book.author}, ${book.year}</p>
   `;
-  bookList.appendChild(bookDiv);
+  bookList!.appendChild(bookDiv);
 }
 
 // Create some book objects
