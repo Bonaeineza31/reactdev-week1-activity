@@ -1,3 +1,5 @@
+export {}; // Ensuring this file is treated as a module 
+
 // --- Starter JavaScript Code ---
 
 // A simple Book class (using constructor function in JS)
