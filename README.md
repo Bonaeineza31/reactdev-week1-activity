@@ -1,5 +1,16 @@
 # react-dev-week1-Activity
 
+## About this project
+
+A small TypeScript + Webpack demo that renders a simple book list in the browser. It started as plain JavaScript and was converted step by step into TypeScript, using a `Book` class, a `Review` interface, and a typed `addReview` function, then bundled with Webpack.
+
+### Run it
+```bash
+npm install
+npm run build
+```
+Then open `index.html` in your browser.
+
 **Instructions:**
 
 This exercise will guide you through converting a simple JavaScript project to TypeScript and setting up Webpack to bundle your code.
